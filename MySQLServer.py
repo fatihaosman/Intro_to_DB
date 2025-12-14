@@ -7,7 +7,7 @@ def create_database():
     #!Try to connect and run MySQL commands.If anything fails, jump to except.”
     #!This connects Python to the MySQL server, NOT a database
     try:  
-        connection = mysql.connector.   connect(
+        connection = mysql.connector.connect(
             host="localhost",
             user="root",
             password=""
